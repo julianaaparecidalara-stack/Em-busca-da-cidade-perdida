@@ -1,0 +1,73 @@
+:root {
+    --fonte-principal: 'Plus Jakarta Sans', sans-serif;
+    --fonte-secundaria: "Barlow Condensed", sans-serif;
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/hd/forest-view-with-mist-uln8twbuzxgeq8lu.jpg);
+    color: white;
+    font-family: var(--fonte-principal);
+    margin: 0;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: var(--fonte-secundaria);
+    background-color: rgb(193, 188, 188);
+    height: 40px;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-proximo {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.rodape-principal {
+            background-image: url(https://tse3.mm.bing.net/th/id/OIP.64TjU7UEIrHyqk-Jo77sgQHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+            color: #ffffff;
+            border-top: 4px solid var(--cor-borda);
+            padding: 0rem;
+            text-align: unset;
+}
+
+footer{
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 5px;
+    position: fixed;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+}
